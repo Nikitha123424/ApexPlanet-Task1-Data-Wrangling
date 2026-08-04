@@ -5,35 +5,37 @@
 ### Objective
 The objective of this task is to clean and prepare the sales dataset for analysis.
 
-### Dataset
+## Dataset
 - Sales Dataset
 - 1000 Records
 - 12 Columns
 
-### Data Quality Assessment
-- Missing Values:
-  - Age: 20
-  - City: 13
-- Duplicate Records:
-  - 0 duplicate records found
+## Data Quality Assessment
 
-### Data Cleaning Performed
-- Filled missing Age values using the median.
-- Filled missing City values with "Unknown".
-- Converted Order_Date to datetime format.
+### Missing Values
+- Age: 20
+- City: 13
+
+### Duplicate Records
+- 0 duplicate records found
+
+## Data Cleaning Performed
+- Filled missing **Age** values using the median.
+- Filled missing **City** values with **"Unknown"**.
+- Converted **Order_Date** to datetime format.
 - Created new columns:
   - Year
   - Month
   - Day
 
-### Tools Used
+## Tools Used
 - Python
 - Pandas
 - OpenPyXL
 - VS Code
 
-### Output
-A cleaned dataset named `Cleaned_Sales_Dataset.xlsx` was generated successfully.
+## Output
+A cleaned dataset named **Cleaned_Sales_Dataset.xlsx** was generated successfully.
 
 ## Repository Contents
 - ApexPlanet_DataAnalytics_Dataset.xlsx
